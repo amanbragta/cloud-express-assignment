@@ -49,7 +49,7 @@ function App() {
     window.addEventListener("keydown", handleThemeSwitch);
     return () => window.removeEventListener("keydown", handleThemeSwitch);
   }, []);
-  //className='border-dotted border-2 rounded-md flex flex-col items-center gap-4 justify-center' 
+  //className='border-dotted border-2 rounded-md flex flex-col items-center gap-4 justify-center'
 
   return (
     <div className={`px-64 py-8 ${image? 'h-[100%]':'h-[100vh]'} flex flex-col items-center ${themes[themeIndex]}`}>
@@ -94,7 +94,6 @@ function App() {
               </select>
               </div>
             </div>
-            
           </div>
       </div>
       <div className='w-[28vw] mt-8'>
