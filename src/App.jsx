@@ -68,7 +68,7 @@ function App() {
             }
           </div>
           <div>Drop an image here or</div>
-          <div><label className='cursor-pointer'> <input type='file' className='hidden' onChange={onImageChange}/> Select file</label></div>
+          <div className='bg-blue-700 text-white px-4 py-2 rounded-lg'><label className='cursor-pointer'> <input type='file' className='hidden' onChange={onImageChange}/> Select file</label></div>
         </div>
           <div className='flex flex-col gap-4'>
             <div className='flex flex-col gap-1'>
@@ -121,7 +121,7 @@ function App() {
       </div>
       </div>
       <div className='mt-4'>
-      <button className='bg-blue-800 text-white px-6 py-2 rounded-xl' onClick={handleSubmit}>Submit</button>
+      <button className='bg-blue-700 text-white px-6 py-2 rounded-xl' onClick={handleSubmit}>Submit</button>
       </div>
     </div>
   )
